@@ -11,9 +11,9 @@ This project can be broken down into three distinctive parts:
 
 How to run:
 
-`git clone git@github.com:stasburlakov/Corewar.git 21_projects`
+`git@github.com:stasburlakov/Corewar.git corewar`
 
-`cd 21_projects/corewar`
+`cd corewar`
 
 `make`
 
@@ -36,6 +36,6 @@ Corewar virtual machine visualization written using the SDL2 library. There are 
 - Open (virtual machine data visible) `-v`
 
 ### Example:
-`./asm champs/helltrain.s`
+`./asm champs/examples/helltrain.s`
 
-`./corewar -v --ninja champs/helltrain.cor champs/helltrain.cor champs/helltrain.cor champs/helltrain.cor`
+`./corewar -v --ninja champs/examples/helltrain.cor champs/examples/helltrain.cor champs/examples/helltrain.cor champs/examples/helltrain.cor`
