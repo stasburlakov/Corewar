@@ -11,11 +11,8 @@ This project can be broken down into three distinctive parts:
 
 How to run:
 
-`git clone git@github.com:stasburlakov/Corewar.git corewar`
+`git clone git@github.com:stasburlakov/Corewar.git corewar && cd corewar && make`
 
-`cd corewar`
-
-`make`
 
 - `./asm [file.s]`
 
